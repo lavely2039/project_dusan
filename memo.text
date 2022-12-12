@@ -1,0 +1,11 @@
+1. 깃허브와 깃로컬 연동시 규칙
+2. 로컬에 버전생성
+3. 깃허브에 리포지토리(폴더)생성 
+    리포지토리는 프로젝트 별로 폴더를 생성 (안그러면 시간이 너무 오래걸린다)
+    -프로젝트 관리 폴더-
+4. 로컬에서 리포지토리로 연결
+5. 푸쉬
+
+git branch -M main
+git remote add origin https://github.com/lavely2039/testtest.git
+git push -u origin main
